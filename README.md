@@ -35,7 +35,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 * You are required to submit the following:
 
-  * Deployed Heroku Link: 
+  * Deployed Heroku Link: https://tranquil-fortress-00902.herokuapp.com/
 
   * Github Repository: https://github.com/garrib10/TrackYourBudget 
 
