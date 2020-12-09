@@ -1,7 +1,7 @@
-const router = require("express").Router();
+const app = require("express").Router();
 const Transaction = require("../models/transaction.js");
 
-router.post("/api/transaction", ({body}, res) => {
+app.post("/api/transaction", ({body}, res) => {
   Transaction.create(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
@@ -11,7 +11,7 @@ router.post("/api/transaction", ({body}, res) => {
     });
 });
 
-router.post("/api/transaction/bulk", ({body}, res) => {
+app.post("/api/transaction/bulk", ({body}, res) => {
   Transaction.insertMany(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
@@ -21,7 +21,7 @@ router.post("/api/transaction/bulk", ({body}, res) => {
     });
 });
 
-router.get("/api/transaction", (req, res) => {
+app.get("/api/transaction", (req, res) => {
   Transaction.find({}).sort({date: -1})
     .then(dbTransaction => {
       res.json(dbTransaction);
@@ -31,4 +31,4 @@ router.get("/api/transaction", (req, res) => {
     });
 });
 
-module.exports = router;
+module.exports = app;
