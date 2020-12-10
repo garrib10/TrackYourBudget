@@ -41,3 +41,11 @@ THEN that will be shown on the page, and added to their transaction history when
 
 ## Screenshots
 
+<img width="1440" alt="Screen Shot 2020-12-09 at 9 40 37 PM" src="https://user-images.githubusercontent.com/68867054/101714397-83127700-3a67-11eb-8c8f-6249eb4e926b.png">
+
+<img width="1440" alt="Screen Shot 2020-12-09 at 9 41 02 PM" src="https://user-images.githubusercontent.com/68867054/101714427-902f6600-3a67-11eb-899f-9f003150dabf.png">
+
+
+<img width="1440" alt="Screen Shot 2020-12-09 at 9 41 12 PM" src="https://user-images.githubusercontent.com/68867054/101714447-9cb3be80-3a67-11eb-833e-7de421354fd8.png">
+
+
